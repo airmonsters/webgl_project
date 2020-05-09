@@ -258,7 +258,7 @@ window.Assignment_Three_Scene = window.classes.Assignment_Three_Scene =
 
     make_control_panel()            // Draw the scene's buttons, setup their actions and keyboard shortcuts, and monitor live measurements.
     {
-      this.key_triggered_button("View solar system", ["0"], () => this.attached = () => this.initial_camera_location);
+      // this.key_triggered_button("View solar system", ["0"], () => this.attached = () => this.initial_camera_location);
       this.new_line();
       this.key_triggered_button("Start Fire", ["1"], () => {
 
